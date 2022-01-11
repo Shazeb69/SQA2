@@ -1,0 +1,38 @@
+Scanner storeinput = new scanner(scanner.in);
+Int stock;
+1.	Stock = storeinput.nextint();
+Int number of products in stock;
+2.	Products in stock = storeinput.nextint();
+Int number of product out of stock ;
+3.	Number of products out of stock = storeinput.nextint();
+Int new stock ;
+4.	New stock = storeinput.nextint();
+Int old stock;
+5.	Old stock = storeinput.nextint();
+6.	For(i=0;i<=totalsocks;i++)
+{
+7.	If stock of product[i] is less than number of products out of stock then 
+8.	print(“please order new stock”);
+Else
+9.	 print(“push products towards market”)
+{
+10.	If new stock comes in wholesale offer price 
+11.	Then print(“sell in discounted price”);
+Else
+12.	print(“sell retail price”);
+13.	end if
+};
+14.	End if
+15.	If old stock is not going 
+16.	then Print(“old stocks to be sold in offer”);
+17.	Else if new stock not going
+Print(“do promotions”);
+18.	End if
+19.	If stock found to be defective 
+20.	then Print(“Request exchange from manufacturer”);
+21.	Else if stock perfect condition 
+Print(“Push it for processing and to be sold”);
+22.	End if
+};
+23.	End for
+24.	Print(“End of program”)
